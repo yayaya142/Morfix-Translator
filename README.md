@@ -8,13 +8,11 @@ enjoy!
 
 
 
-update: 
-**v.1.00**
-  morfix open 25 file, with loop.
-  open with .txt file 
+update:<br />
+**v.1.00**<br />
+  morfix open 25 file, with loop.<br />
+  open with .txt file<br />
   
- **v.1.01**
-    1) It is now possible to use an excel file
-    2) There is a start selection of the translation (end is set automatically when the maximum is 25 words per translation)
- 
-
+ **v.1.01**<br />
+    1) It is now possible to use an excel file<br />
+    2) There is a start selection of the translation (the end is set automatically when the maximum is 25 words per translation)<br />
