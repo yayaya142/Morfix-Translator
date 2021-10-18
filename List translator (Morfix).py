@@ -1,24 +1,36 @@
 import webbrowser
-
-loop_var = 'start'
-while loop_var != "n":
-    file_path = input("""Enter file path and file name
-    for example:
-    D:\softwere\python 3\AA project\AA my project\.vscode\filename.txt
+import openpyxl as xl
+file_path = input("""Enter file path and file name
+    for example: D:\softwere\python 3\AA project\AA my project\.vscode\filename (with no ending)
     """)
-    # file_path = r"D:\softwere\python 3\AA project\AA my project\List translator (morfix)\words.txt"
-    print(file_path)
-    try:
-        with open(file_path) as words_txt:
-            word_read = words_txt.read()
-            word_read = word_read.split("\n")
-            if len(word_read) > 25:
-                print(
-                    "Sorry file is to big \nPlease make sure the file contain less then 25 words. ")
-            else:
-                for trans_word in word_read:
-                    webbrowser.open(f'https://www.morfix.co.il/{trans_word}')
-        print("Translate List Completed")
-    except:
-        print ("Cant find file name.\nPlease try again.")
-    loop_var = (input("Do you want to translate another list? \nPress 'y' for Yes or press 'n' for No: ")).lower()
+# file_path = r"D:\softwere\python 3\AA project\AA my project\List translator (morfix)\words"
+file_path = file_path + ".xlsx"
+loop_var = 'start'
+
+while loop_var != "n":
+    words_list = []
+
+    words_xl = xl.load_workbook(file_path)
+    sheets = words_xl["Sheet1"]
+
+    start_row = int(
+        input("In which line would you like to start the translation?"))
+    end_row = sheets.max_row
+    if end_row - start_row > 25:
+        end_row = start_row + 24
+
+    for row in range(start_row, end_row + 1):
+        cell = sheets[f'a{row}']
+        words_list.append(cell.value)
+
+    for word in words_list:
+        webbrowser.open(f'https://www.morfix.co.il/{word}')
+    print(f"Words list: \n{words_list}")
+    print("\nTranslated List Completed")
+    print(f"Translated start at: {start_row}")
+    print(f"Translated end at: {end_row }")
+    print(f"Translated {end_row - start_row + 1} words")
+    print(f"Last word is: {word}")
+
+    loop_var = (input(
+        "Do you want to translate another list? \nPress 'y' for Yes or press 'n' for No: ")).lower()
