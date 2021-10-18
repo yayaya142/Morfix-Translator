@@ -1,9 +1,9 @@
 # List-translator--morfix-
 
-~~to use this program create a .txt file with 25 words at max.~~&nbsp;
-to use this program create a .xlsx file.&nbsp;
-then enter the file location + filename (# for example: F:\Users\shai\Desktop\spreedsheets\words("with no ending")
-then press Enter and it will open the translation in the browser. 
+~~to use this program create a .txt file with 25 words at max.~~<br />
+to use this program create a .xlsx file.<br />
+then enter the file location + filename (# for example: F:\Users\shai\Desktop\spreedsheets\words("with no ending")<br />
+then press Enter and it will open the translation in the browser.<br />
 enjoy!
 
 
