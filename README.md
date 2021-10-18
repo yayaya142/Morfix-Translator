@@ -1,3 +1,4 @@
+![v1 01 screenshot](https://user-images.githubusercontent.com/82652251/137700981-e683c930-b329-4a89-a42c-3a463feb9dea.png)
 # List-translator--morfix-
 
 ~~to use this program create a .txt file with 25 words at max.~~<br />
