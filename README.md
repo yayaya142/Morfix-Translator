@@ -17,7 +17,10 @@ Write one word in English in each line. (only in A)<br />
 Run the program and Select the file.<br />
 Enjoy!
 
-**screenshot**<br />
+**screenshots**<br />
+<br />
+**words in English**<br />
+![words](https://user-images.githubusercontent.com/82652251/137893162-53f7e433-257a-43e1-958e-ebc37914285d.png)
 <br />
 **Pop up window**<br />
 ![open window](https://user-images.githubusercontent.com/82652251/137891661-eab73264-c977-4d37-a4e0-f9dbc41ab1c9.png)
