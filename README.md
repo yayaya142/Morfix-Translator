@@ -29,3 +29,7 @@ Update:<br />
     1) Add Support for automatic translation<br />
     2) The translation is saved in an excel file<br />
  
+**v.1.03**<br />
+    1) Window open at the beginning to select a file location<br />
+    2) Functions were added to the file Morfix_translator_func.py<br />
+ 
