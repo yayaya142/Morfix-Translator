@@ -1,11 +1,10 @@
 from Morfix_translator_func import morfix_translate
 import webbrowser
 import openpyxl as xl
-file_path = input("""Enter file path and file name
-    for example: D:\softwere\python 3\AA project\AA my project\.vscode\filename (with no ending)
-    """)
-# file_path = r"D:\softwere\python 3\AA project\AA my project\List translator (morfix)\words"
-file_path = file_path + ".xlsx"
+from Morfix_translator_func import file_location
+
+file_path = file_location()
+
 loop_var = 'start'
 
 while loop_var != "n":
@@ -14,8 +13,7 @@ while loop_var != "n":
     words_xl = xl.load_workbook(file_path)
     sheets = words_xl["Sheet1"]
 
-    start_row = int(
-        input("In which line would you like to start the translation: "))
+    start_row = int(input("In which line would you like to start the translation: "))
     end_row = sheets.max_row
     if end_row - start_row > 25:
         end_row = start_row + 24
