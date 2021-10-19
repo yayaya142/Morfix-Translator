@@ -19,11 +19,11 @@ Enjoy!
 
 **screenshot**<br />
 <br />
-**The menu looks like this**<br />
-![v1 01 screenshot](https://user-images.githubusercontent.com/82652251/137700981-e683c930-b329-4a89-a42c-3a463feb9dea.png)
-<br />
 **Pop up window**<br />
 ![open window](https://user-images.githubusercontent.com/82652251/137891661-eab73264-c977-4d37-a4e0-f9dbc41ab1c9.png)
+<br />
+**The menu looks like this**<br />
+![v1 01 screenshot](https://user-images.githubusercontent.com/82652251/137700981-e683c930-b329-4a89-a42c-3a463feb9dea.png)
 <br />
 **After the program ran**<br />
 ![After the program ran](https://user-images.githubusercontent.com/82652251/137892760-1aae74d5-e826-4079-b2c9-61308d34b821.png)
