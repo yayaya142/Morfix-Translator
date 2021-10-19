@@ -26,7 +26,7 @@ Enjoy!
 ![xlsx](https://user-images.githubusercontent.com/82652251/137897826-1e869df4-3d3b-4e85-b0c4-f4c81e822ab3.png)
 <br />
 **The menu looks like this**<br />
-![v1 01 screenshot](https://user-images.githubusercontent.com/82652251/137700981-e683c930-b329-4a89-a42c-3a463feb9dea.png)
+![pop up](https://user-images.githubusercontent.com/82652251/137898232-e00475ea-1810-4a28-bea7-9a274347491b.png)
 <br />
 **After the program ran**<br />
 ![After the program ran](https://user-images.githubusercontent.com/82652251/137892760-1aae74d5-e826-4079-b2c9-61308d34b821.png)
