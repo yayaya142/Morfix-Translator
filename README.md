@@ -24,3 +24,8 @@ Update:<br />
  **v.1.01**<br />
     1) It is now possible to use an excel file<br />
     2) There is a start selection of the translation (the end is set automatically when the maximum is 25 words per translation)<br />
+ 
+ **v.1.02**<br />
+    1) Add Support for automatic translation<br />
+    2) The translation is saved in an excel file<br />
+ 
