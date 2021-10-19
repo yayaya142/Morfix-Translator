@@ -23,7 +23,7 @@ Enjoy!
 ![words](https://user-images.githubusercontent.com/82652251/137897373-7ae51219-e12f-4e10-9569-d815a2fe2486.png)
 <br />
 **Pop up window**<br />
-![open window](https://user-images.githubusercontent.com/82652251/137891661-eab73264-c977-4d37-a4e0-f9dbc41ab1c9.png)
+![xlsx](https://user-images.githubusercontent.com/82652251/137897826-1e869df4-3d3b-4e85-b0c4-f4c81e822ab3.png)
 <br />
 **The menu looks like this**<br />
 ![v1 01 screenshot](https://user-images.githubusercontent.com/82652251/137700981-e683c930-b329-4a89-a42c-3a463feb9dea.png)
