@@ -62,4 +62,5 @@ Enjoy!
          * The excel sheet is open.<br />
          * when Collom A has an empty row.<br />
     6) Add if main == name to the main file.<br />
+    7) Functions were added to the file Morfix_translator_func.py.<br />
 
