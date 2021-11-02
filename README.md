@@ -59,7 +59,7 @@ Enjoy!
     3) Now when the script run it shows word number and how many words there are.<br />
     4) Add bugs count that the users see at the end of the run.<br />
     5) Add errors message when:<br />
-       * The excel sheet is open.<br />
-       * when Collom A has an empty row.<br />
+         * The excel sheet is open.<br />
+         * when Collom A has an empty row.<br />
     6) Add if main == name to the main file.<br />
 
