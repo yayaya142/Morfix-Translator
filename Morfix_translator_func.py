@@ -1,7 +1,6 @@
 import requests
 import re
 import webbrowser
-import pygame
 import os
 import time
 import subprocess
@@ -37,7 +36,7 @@ def morfix_translate(word):
         return("Invalid input")
 
         if len(html) >= 3000:  # more than 3000 is 99% means no result found
-            return(URL)
+            return(f"Bug 1 use: {URL}")
 
         else:
             html.replace("\n", '')
@@ -51,10 +50,12 @@ def morfix_translate(word):
         html = html[: place]
 
         if len(html) >= 3000:  # more than 3000 is 99% means no result found
-            return  (URL)
+            return (f"Bug 2 use: {URL}")
         else:
             html.replace("\n", '')
-            return(html)
+            x = html
+            x = x.lstrip()
+            return x.replace("\n", " ")
 
     else:  # one English or Hebrew word
         place = html.find("normal_translation_div")
@@ -68,14 +69,17 @@ def morfix_translate(word):
             "<span class='clearOutputLanguageMeaningsString'>;", ",")
 
         if len(html) >= 3000:  # more than 3000 is 99% means no result found
-            return (URL)
+            return (f"Bug 3 use: {URL}")
 
         else:
             html.replace("\n", '')
             x = html
-            return x.replace("\r\n", " ").replace(",", ", ")
+            x = x.lstrip()
+            return x.replace("\n", " ")
 
 #region file location
+
+
 def openFile():
     """
    :This func is used return the file location 
@@ -99,21 +103,33 @@ def file_location():
    :Return: the file loction as (x)
    :Retype: str
    """
-    Button(window, text='File Open', command=openFile).pack(fill=X)
+    Button(window, text='Open file', command=openFile).pack(fill=X)
     mainloop()
     return x
+
+#fix files
+def remove_worng_strings(word):
+    """
+   :This func is used return the word clean with no marks 
+   :Param word: word' 
+   :Type bass: str
+   :Return: word
+   :Retype: str
+   """
+    try:
+        word = word.replace("?", "")
+        word = word.replace("@", "")
+        word = word.replace(".", "")
+        word = word.replace(",", "")
+        word = word.replace(":", "")
+        word = word.replace("-", "")
+        word = word.replace('"', "")
+        word = word.replace("'", "")
+        word = word.rstrip()
+        word = word.lstrip()
+        return word
+    except AttributeError:
+        print("\t\t\t\t\n\nError\nremove empty lines")
+        input("")
+
 #endregion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
