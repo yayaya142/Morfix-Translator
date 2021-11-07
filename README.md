@@ -9,12 +9,12 @@ With this program, you can easily insert words from a kindle book into the Quizl
 
 
 **How to use**<br />
-You have two options you can use translate from excel or directly from HTML file..<br />
-.<br />
-.<br />
+You have two options you can use translate from excel or directly from HTML file.<br />
+<br />
+<br />
 
-Guide to using translate from excel:.<br />
-.<br />
+Guide to using translate from excel:<br />
+<br />
 To use this program create a .xlsx file.<br />
 Write one word in English in each line. (only in A)<br />
 Run the program and Select the file.<br />
@@ -37,6 +37,9 @@ Enjoy!
 **After the program ran**<br />
 ![After the program ran](https://user-images.githubusercontent.com/82652251/137892760-1aae74d5-e826-4079-b2c9-61308d34b821.png)
 <br />
+<br />
+<br />
+<br />
 Guide to using translate from HTML file:<br />
 <br />
 <br />
@@ -52,7 +55,7 @@ Collom B > translated words in Hebrew.<br />
 ![words](https://user-images.githubusercontent.com/82652251/140636075-cfc5ee8b-63dc-4075-8951-e5a575f8ef8d.png)
 <br />
 **Pop up window**<br />
-![xlsx](https://user-images.githubusercontent.com/82652251/137897826-1e869df4-3d3b-4e85-b0c4-f4c81e822ab3.png)
+![pop up](https://user-images.githubusercontent.com/82652251/140636194-2252d4b3-cd2a-41fe-acc7-2e541c8c8988.png)
 <br />
 **The program ran**<br />
 ![run](https://user-images.githubusercontent.com/82652251/140636087-545e41ba-2049-450c-8913-ca54c67316a3.png)
@@ -102,5 +105,5 @@ Collom B > translated words in Hebrew.<br />
     7) Functions were added to the file Morfix_translator_func.py.<br />
 
  **v.1.05**<br />
-  1)Now you have two options to use translate from excel or directly from HTML file.<br />
-
+  1) Now you have two options to use translate from excel or directly from HTML file.<br />
+  2) Functions were added to the file Morfix_translator_func.py.<br />
