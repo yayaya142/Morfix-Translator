@@ -43,11 +43,14 @@ Enjoy!
 Guide to using translate from HTML file:<br />
 <br />
 <br />
-you need to import an HTML file from the kindle app.<br />
+you need to export an HTML file from the kindle app.<br />
 open the program and select your file.<br />
 the program will automatically create a new excel file with 2 Collom.<br />
 Collom A > English words.<br />
 Collom B > translated words in Hebrew.<br />
+Enjoy!<br />
+
+
 
 **screenshots 'translate from HTML'**<br />
 <br />
