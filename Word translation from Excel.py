@@ -27,6 +27,7 @@ def main():
             cell.value = funcs.remove_worng_strings(cell.value)
             print(f"{count_row} from {end_row}")
             translated_word = funcs.morfix_translate(cell.value)
+
             translated_word_cell = sheets[f"b{row}"]
             translated_word_cell.value = translated_word
             if 'Bug' in translated_word:
@@ -38,7 +39,7 @@ def main():
             input("")
             # close program
             return
-
+        
         print("\nTranslated List Completed")
         print(f"Translated start at: {start_row}")
         print(f"Translated end at: {end_row }")
@@ -50,4 +51,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+     main()
