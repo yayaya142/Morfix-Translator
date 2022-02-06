@@ -1,5 +1,5 @@
 
-**List-translator--morfix-**<br />
+**Morfix-Translator**<br />
 
 **About this program.**<br />
 This program is used to translate words from English to Hebrew using the website Morfix.<br />
