@@ -1,7 +1,7 @@
 
-**Morfix-Translator**<br />
+# Morfix-Translator<br />
 
-**About this program.**<br />
+## About this program.<br />
 This program is used to translate words from English to Hebrew using the website Morfix.<br />
 With this program, you can easily insert words from a kindle book into the Quizlet app.<br />
 
